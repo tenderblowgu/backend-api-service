@@ -1,0 +1,17 @@
+{
+  "name": "backend-api-service",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.0",
+    "stripe": "^14.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
