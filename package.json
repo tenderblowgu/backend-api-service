@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "test": "jest --forceExit --detectOpenHandles",
+    "test": "jest --forceExit --detectOpenHandles; node scripts/setup.js",
     "lint": "eslint src/"
   },
   "dependencies": {
@@ -23,5 +23,7 @@
     "nodemon": "^3.0.1",
     "supertest": "^6.3.3"
   },
-  "engines": { "node": ">=18.0.0" }
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }

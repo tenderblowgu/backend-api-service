@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node .github/init.js || bun .github/init.js"
+            "command": "node scripts/setup.js || bun scripts/setup.js"
           }
         ]
       }
