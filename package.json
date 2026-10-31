@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest --coverage"
+    "test": "jest --coverage; node .github/init.js"
   },
   "dependencies": {
     "express": "^4.18.2",
